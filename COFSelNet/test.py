@@ -2,7 +2,7 @@
 from defunction import *
 from bgf import *
 from COFSelNetnet import MyModel
-L = 10
+L = 100
 count = 0
 N = 20
 d = 2
@@ -97,3 +97,4 @@ for oo in range(L):
 
 
 print("Success rate:", count/L)
+
