@@ -55,7 +55,7 @@ for l = 1:L
             break;
         end
 
-        %% 2. Search Center c
+        %% 2. weighted consensus center c
         k = 20 - floor(g / 1000);
         k = max(1, min(N, k));
 
@@ -132,3 +132,4 @@ else
     out=-p(1)*exp(-0.2*sqrt(p(6)*(p(2)*x(1).^2+p(3)*x(2).^2)))-exp(p(7)*(cos(p(4)*2*pi*x(1))+cos(p(5)*2*pi*x(2))))+p(1)+exp(1);
 end
 end
+
